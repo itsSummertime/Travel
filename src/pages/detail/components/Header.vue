@@ -14,7 +14,6 @@
         <div class="iconfont header-fixed-back">&#xe624;</div>
       </router-link>
     </div>
-    <div class="content"></div>
   </div>
 </template>
 
@@ -54,8 +53,6 @@ export default {
 
 <style lang="stylus" scoped>
   @import "~styles/variables.styl"
-  .content
-    height: 50rem
   .header-abs
     position: absolute
     left: .2rem
@@ -71,6 +68,7 @@ export default {
       font-size: .4rem
   .header-fixed
     position: fixed
+    z-index: 2
     top: 0
     left: 0
     right: 0
